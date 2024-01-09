@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website Clone</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      background-color: #eee;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      font-size: 20px;
+    }
+    main {
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .mini-container {
+      background-color: #f5f5f5;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+      width: 48%; /* Adjust the width based on your preference */
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .search-container {
+      margin-top: 20px;
+    }
+    input[type="text"] {
+      padding: 10px;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+    }
+    input[type="text"]:focus {
+      outline: none;
+      background-color: #fff; /* Add background color when focused */
+    }
+
+    /* Responsive Styles */
+    @media only screen and (max-width: 600px) {
+      header {
+        font-size: 18px;
+      }
+      main {
+        padding: 10px;
+      }
+      .mini-container {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Website Name</h1>
+  </header>
+  <nav>
+    <div>
+      <a href="#">🏠</a>
+      <a href="#">ℹ️</a>
+      <a href="#">✉️</a>
+      <!-- Add more navbar items as needed -->
+    </div>
+    <div class="search-container">
+      <input type="text" placeholder="Search">
+    </div>
+  </nav>
+  <main>
+    <div class="mini-container">
+      <h2>Mini Container 1</h2>
+      <p>Content for the first mini container.</p>
+    </div>
+    <div class="mini-container">
+      <h2>Mini Container 2</h2>
+      <p>Content for the second mini container.</p>
+    </div>
+    <!-- Add more mini-containers as needed -->
+  </main>
+  <footer>
+    <p>&copy; 2024 Your Website Name</p>
+  </footer>
+</body>
+</html>
